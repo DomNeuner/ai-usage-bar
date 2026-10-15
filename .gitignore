@@ -1,0 +1,12 @@
+# build output
+.build/
+build/
+*.app
+
+# probe output (contains account data)
+scripts/*-sample.json
+
+# local only
+.DS_Store
+.claude/
+task-list/
